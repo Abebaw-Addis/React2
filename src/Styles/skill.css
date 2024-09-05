@@ -1,0 +1,87 @@
+
+body{
+  width: 100vh;
+}
+
+.skill-container{
+    background-color: rgb(219, 224, 235);
+    border-radius: 10px;
+    color: black;
+    max-width: 90%;
+    margin-left: 5%;
+    padding: 20px;
+}
+
+.skill-container h2{
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    color: rgb(0, 255, 64);
+    font-weight: bold;
+    text-align: center;
+}
+
+.skills{
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.skill{
+  border-radius: 15px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  box-shadow: 0px 4px 4px hsl(10, 20%, 59%);
+  background-color: rgb(0, 255, 221);
+  padding: 10px;
+}
+
+.percentage-display{
+  float: right;
+  color: red;
+  padding: 10px;
+}
+
+.web{
+  max-width: 70%;
+}
+
+.java{
+  max-width: 55%;
+}
+.cpp{
+  max-width: 75%;
+}
+.dsa{
+  max-width: 80%;
+}
+.networking{
+  max-width: 50%;
+}
+.react{
+  max-width: 15%;
+}
+.python{
+  max-width: 60%;
+}
+.angular{
+  max-width: 0%;
+}
+.ajax{
+  max-width: 0%;
+}
+.cloud{
+  max-width: 95%;
+}
+
+.web, .java, .cpp, .dsa, .networking, .react, .python, .angular, .ajax, .cloud{
+  animation: width 8s ease-in-out 0s infinite both;
+}
+@keyframes width {
+  from{
+    width: 0%;
+  }
+  to{
+    width: 100%;
+  }
+}

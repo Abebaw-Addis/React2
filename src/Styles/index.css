@@ -1,0 +1,187 @@
+
+body{
+    width: 100vh;
+  }
+
+
+.welcomee-content{
+    border: 2px solid white;
+    padding: 20px;
+    margin:150px 20px 10px;
+  }
+
+.file{
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcyan;
+    background-image: url('C:\Users\admin\Desktop\React2\React2\public\Images\person.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    margin-top: -5px;
+    margin-left: 75%;
+    border: 1px aqua solid;
+}
+
+.image-upload-input{
+    position: relative;
+    bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: transparent;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.image-input input[type="file"]{
+    display: none;
+  }
+
+.uploaded-image{
+    position: relative;
+    display: flex;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 85px;
+}
+
+th, td{
+    border: 2px solid white;
+    height: 30px;
+    text-align: center;
+  }
+table{
+    border-collapse: collapse;
+    background-color: gray;
+    color: white;
+    font-weight: bold;		
+    width: 400px;
+    margin: 30px;
+  }
+  
+table tr:nth-child(even){
+    background-color: white;	
+    color: red;	
+    }
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid red;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    }
+      
+pre{
+    font-size: 20px;
+    margin-bottom: 10px;
+    }
+      
+.Button{
+    display: grid;
+    grid-template: 50px 70px/1fr 1fr 1fr;
+    gap: 10px;
+}
+.toggle-button{
+    grid-column: 2/-2;
+    /* grid-column: 1/-1; */
+}
+.button{
+    background-color: aqua;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border: none;
+    }
+      
+.button:hover{
+    background-color: rgb(9, 201, 239);;
+    }
+      
+.textfield{
+    text-align: center;
+    border: 3px solid greenyellow;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    }
+      
+#userName, #userId{
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid gray;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+      
+.color{
+    font-size: 20px;
+    color: red;
+}
+
+input[type="radio"]::marker{
+    color: red;
+    border: 3px red solid;
+}
+
+#male, #female{
+    margin-left: 10px;
+}
+
+.input-check-up{
+    color: white;
+    margin-left: 100px;
+}
+
+.studentResult{
+    display: grid;
+    grid-template: 10px 10px/1fr 1fr;
+    gap: 40px;
+    width: 100vh;
+    height: 180px;
+    padding: 20px 10px 0 30px;/*top right bottom left*/
+
+}
+
+.stud-photo{
+    width: 30vh;
+    height: 150px;
+    background-color: lightcyan;
+    background-image: url('C:\Users\admin\Desktop\React2\React2\public\Images\person-fill.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+.student-result-info p{
+    font-size: 15px;
+    color: aqua;
+    font-weight: bold;
+    margin-bottom: 8px;
+    width: 100vh;
+}
+.student-result-info p span{
+    text-decoration: underline;
+    color: rgb(16, 225, 225);
+}

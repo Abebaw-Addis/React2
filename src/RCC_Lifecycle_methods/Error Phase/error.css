@@ -1,0 +1,17 @@
+
+
+.lists{
+    margin-left: 70px;
+}
+
+.lists > li{
+    color: black;
+    font-weight: bold;
+    list-style-type: square;
+    line-height: 1.9rem;
+}
+
+.lists > li::marker{
+    color: rgba(255, 0, 0, 0.484);
+    font-size: 20px;
+}

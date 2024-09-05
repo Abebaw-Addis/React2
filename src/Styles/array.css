@@ -1,0 +1,137 @@
+
+.car-selection-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    border: 2px solid hsl(0, 20%, 30%);
+    border-radius: 5px;
+    background-color: rgb(28, 167, 48);
+  }
+.car-selection-container h2{
+    margin: 20px;
+    text-align: center;
+  }
+  
+.car-selection-container label{
+    margin: 5px;
+  }
+  
+.car-selection-container input{
+    text-align: center;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  
+.car-selection-container p{
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+  }
+
+.array-lists{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid blueviolet;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+.array-lists h2{
+    margin: 5px;
+  }
+.array-lists input{
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+  }
+  .array-lists button{
+    background-color: rgb(18, 176, 224);
+    border-radius: 5px;
+    border: none;
+    width: 90px;
+    height: 30px;
+  }
+  
+.array-lists button:hover{
+    background-color: aqua;
+  }
+  
+.array-car-lists{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid blueviolet;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+.array-car-lists h2{
+    margin: 5px;
+  }
+.array-car-lists input{
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    }
+.array-car-lists button{
+    background-color: rgb(18, 176, 224);
+    border-radius: 5px;
+    border: none;
+    width: 90px;
+    height: 30px;
+  }
+    
+.array-car-lists button:hover{
+    background-color: aqua;
+   }
+  
+.array-car-lists th, td{
+    border: 2px solid white;
+    height: 30px;
+    text-align: center;
+  }
+.array-car-lists table{
+    border-collapse: collapse;
+    background-color: gray;
+    color: white;
+    font-weight: bold;		
+    width: 400px;
+    margin: 30px;
+  }
+    
+.array-car-lists table tr:nth-child(even){
+    background-color: white;	
+    color: red;	
+  }
+
+th, td{
+    border: 2px solid white;
+    height: 30px;
+    text-align: center;
+  }
+table{
+    border-collapse: collapse;
+    background-color: gray;
+    color: white;
+    font-weight: bold;		
+    width: 400px;
+    margin: 30px;
+  }
+  
+table tr:nth-child(even){
+    background-color: white;	
+    color: red;	
+    }

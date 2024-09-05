@@ -1,0 +1,163 @@
+html{
+  max-width: 100vh;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+body{
+  color: black;
+  background-color: white;
+  width: 100vh;
+  /* background-image: url(C:\Users\admin\Desktop\React2\React2\src\logo.svg); */
+  /* background-repeat: no-repeat; */
+  /* background-position: right 50%;
+  background-position-x: left; */
+  /* background-position-y: top 2%; */
+}
+
+@keyframes logo {
+  100%{transform: rotateY(360deg)}
+}
+
+h3{
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(2, 247, 2);
+}
+
+.logo{
+  display: flex;
+  justify-content: center;/*Horizontal center allignment*/
+  align-items: center;/*Vertical center allignment*/
+  
+}
+
+.logo img{
+  animation-play-state: running;
+}
+
+.is-paused img{
+  animation-play-state: paused;
+} 
+
+.logo, .is-paused{
+  width: 400px;
+  animation: myRotate 6s linear 0s infinite normal both;
+  margin-bottom: 30px;
+}
+@keyframes myRotate {
+  /* from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  } */
+  100%{transform: rotateZ(360deg)}
+
+}
+
+.welcome-message{
+    animation-name: slidingLeft;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 10ms;   
+    animation-fill-mode: both; 
+    animation-timing-function: linear;
+    animation-direction: normal;
+}
+
+@keyframes slidingLeft{
+  from{
+transform: translateX(85%);
+  }
+  to{
+transform: translateX(-85%);
+  }
+}
+
+h1{
+  margin: 20px;
+  font-weight: bold;
+}
+.selectedColor{
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  border: 3px solid hsl(0, 0%, 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 10%, 50%);
+}
+
+label{
+  color: hsl(0, 10%, 70%);
+  margin: 30px;
+}
+
+input[type="color"]{
+  border-radius: 5px;
+  padding: 3px 2px;
+  width: 100px;
+  height: 40px;
+  margin-bottom: 20px;
+  transition: 0.25s ease;
+}
+
+.login-prompt{
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  justify-content: center;
+}
+
+.copy-right{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  text-align: left;
+  margin: 50px 0 30px 30px;
+}
+
+.clock-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: #43947c solid 3px;
+  border-radius: 10px;
+  padding: 40px;
+  margin:  20px;
+  background-color: rgb(34, 4, 4);
+  backdrop-filter: blur(5px);
+}
+
+.clock{
+  color: white;
+  font-size: 2rem;
+}
+
+.box{
+  border: 2px solid #ff0080;
+  padding: 10px 20px;
+  margin: 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.783);
+    margin-left: 5px;
+    color: black;
+    border-radius: 6px;
+    padding: 10px 5px;
+    text-align: center;
+    display: inline-block;
+}

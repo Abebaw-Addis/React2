@@ -1,0 +1,37 @@
+
+body{
+    width: 100vh;
+  }
+  
+.item-lists1{
+    margin: 20px;
+    padding: 20px;
+    border: 2px yellow solid;
+    background-color: green;
+    text-align: center;
+}
+
+.item-lists{
+    display: grid;
+    grid-template: 40px 60px/1fr 1fr;
+    gap: 10px;
+}
+
+.number-input, .text-input{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    height: 40px;
+}
+
+.thing-list{
+    display: grid;
+    grid-template: 50px 120px/1fr 1fr;
+    gap: 10px;
+}
+
+select{
+    text-align: center;
+    font-size: 15px;
+    grid-column: 2/-2;
+}
